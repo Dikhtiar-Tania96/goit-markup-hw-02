@@ -13,9 +13,13 @@
     font-family: Roboto, sans-serif;
     letter-spacing: 3%;
 }
+.active{
+    text-decoration:none;
+}
 .logo{
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
@@ -24,8 +28,9 @@
 .logo-style{
     color: var(--logo-style-color);
     font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 26px;
-    line-height:1.19;
+    line-height: 1.19;
     text-decoration: none;
 }
 .logo-style-white{
@@ -103,6 +108,7 @@ color: var(--text-color);
  }
 
  .button{
+    font-family: Roboto, sans-serif;
     color: var(--title-color);
     background-color: #F5F4FA;
     font-weight: 500;
@@ -120,6 +126,7 @@ color: var(--text-color);
     line-height: 1.6;
     cursor:pointer;
  }
+
  .button-active:hover,
  .button-active:focus{
     background-color: #188ce8;
@@ -127,15 +134,18 @@ color: var(--text-color);
 
 .button:hover,
 .button:focus{
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
  .active-address{
     color: var(--white-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     text-align: left;
     text-decoration: none;
+
  }
 
  .footer{
@@ -145,6 +155,7 @@ color: var(--text-color);
 .contact-active{
     color: var(--text-color);
     font-size: 14px;
+    font-style: normal;
     line-height: 1.14;
     letter-spacing: 2%;
     text-decoration: none;
@@ -202,4 +213,11 @@ color: var(--text-color);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.comand{
+    background-color:var(--color-button)
+}
+.comand-block{
+    background-color: var(--white-color);
 }
