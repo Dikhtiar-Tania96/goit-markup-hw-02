@@ -11,11 +11,12 @@
 .body{
     background-color: var(--white-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 3%;
 }
+
 .active{
     text-decoration:none;
 }
+
 .logo{
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
@@ -23,6 +24,7 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-style{
@@ -32,7 +34,9 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
+
 .logo-style-white{
     color: var(--white-color);
     font-family: Raleway, sans-serif;
@@ -50,6 +54,7 @@
     line-height: 1.14;
     letter-spacing: 2%;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .navi:hover,
@@ -63,6 +68,7 @@
     line-height: 1.14;
     letter-spacing: 2%;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .contact{
@@ -86,6 +92,7 @@ color: var(--text-color);
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .heading{
@@ -94,6 +101,7 @@ color: var(--text-color);
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .text{
@@ -101,6 +109,7 @@ color: var(--text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
  .list{
@@ -115,6 +124,7 @@ color: var(--text-color);
     font-size: 16px;
     line-height: 1.6;
     cursor:pointer;
+    letter-spacing: 0.03em;
  }
 
  .button-active{
@@ -125,6 +135,7 @@ color: var(--text-color);
     font-size: 16px;
     line-height: 1.6;
     cursor:pointer;
+    letter-spacing: 0.06em;
  }
 
  .button-active:hover,
@@ -145,7 +156,6 @@ color: var(--text-color);
     line-height: 1.7;
     text-align: left;
     text-decoration: none;
-
  }
 
  .footer{
@@ -159,6 +169,22 @@ color: var(--text-color);
     line-height: 1.14;
     letter-spacing: 2%;
     text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.contact-active-head{
+    color: var(--text-color);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.contact-active-head:hover,
+.contact-active-head:focus{
+    color: var(--accent-color);
 }
 
 .contact-active:hover,
@@ -172,6 +198,7 @@ color: var(--text-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: Center;
+    letter-spacing: 0.03em;
 }
 
 .subtitle{
@@ -179,6 +206,7 @@ color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 .subtitle-text{
@@ -186,6 +214,7 @@ color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 .items{
@@ -193,6 +222,7 @@ color: var(--text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .items-element{
@@ -200,6 +230,7 @@ color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 
 .visually-hidden {
